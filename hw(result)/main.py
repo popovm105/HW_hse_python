@@ -22,7 +22,7 @@ def is_news_or_articles(str):
 
 
 
-def get_urls(start_page = 'http://ngisnrj.ru', SIZE = 20):
+def get_urls(start_page = 'http://ngisnrj.ru', SIZE = 200):
     queue = [start_page]
     articles_and_news = []
     for url in queue:
@@ -45,6 +45,8 @@ def get_urls(start_page = 'http://ngisnrj.ru', SIZE = 20):
                         queue.append(tempURL)
                         if is_news_or_articles(tempURL):
                             articles_and_news.append(tempURL)
+
+
                             if len(articles_and_news) == SIZE:
                                 return articles_and_news
                 except:
@@ -62,7 +64,8 @@ def get_data(url):
 
     result['title'] = title
 
-    date_temp = author = tree.xpath('.//span[@class="b-object__detail__issue__date"]/text()')[0]
+    #date_temp  = tree.xpath('.//span[@class="b-object__detail__issue__date"]/text()')[0] #дата публикации в газете,а не всегда печатают
+    date_temp = tree.xpath('.//div[@class="b-basic-info__created-timestamp"]//span[@class = "date"]//text()')[0]
     date = get_date(date_temp)
     result['date'] = date
 
@@ -213,9 +216,10 @@ def add_to_meta(data, file_name='meta.csv'):
         writer = csv.DictWriter(csvfile, fieldnames=field_names)
         writer.writerow(data_for_meta)
 
-urls = get_urls()
+urls = get_urls(SIZE=350)
 create_meta()
 for index, url in enumerate(urls):
+    #print(url)
     data = get_data(url)
     path_raw_text = './texts/raw_text/' + data['date']['year'] + '/' +  data['date']['month'] + '/'
     path_mystem_XML = './texts/mystem_XML/' + data['date']['year'] + '/' +  data['date']['month'] + '/'
@@ -233,21 +237,22 @@ for index, url in enumerate(urls):
     with open(data['path'],'w') as f:
         f.write(data['text'])
 
-    call(['./mystem',
+    call(['/home/mikhail/programs/mystem/mystem',
           '-e UTF-8',
-          '-ndi',
+          '-dicg',
           data['path'],
           path_mystem_plain_text + str(index) + '_mystem' + '.txt'])
 
-    call(['./mystem',
+    call(['/home/mikhail/programs/mystem/mystem',
           '-e UTF-8',
-          '-ndi',
+          '-dicg',
           '--format',
           'xml',
           data['path'],
           path_mystem_XML + str(index) + '_mystem' + '.xml'])
 
-
+    if index % 50 == 0:
+        print(index)
 
 
             
