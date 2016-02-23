@@ -216,7 +216,7 @@ def add_to_meta(data, file_name='meta.csv'):
         writer = csv.DictWriter(csvfile, fieldnames=field_names)
         writer.writerow(data_for_meta)
 
-urls = get_urls(SIZE=350)
+urls = get_urls(SIZE=10)
 create_meta()
 for index, url in enumerate(urls):
     #print(url)
@@ -235,6 +235,10 @@ for index, url in enumerate(urls):
     add_to_meta(data)
 
     with open(data['path'],'w') as f:
+        f.write('@au ' + data['author'] + '\n')
+        f.write('@ti ' + data['title'] + '\n')
+        f.write('@topic ' + data['category'] + '\n')
+        f.write('@url ' +data['URL'] + '\n')
         f.write(data['text'])
 
     call(['/home/mikhail/programs/mystem/mystem',
