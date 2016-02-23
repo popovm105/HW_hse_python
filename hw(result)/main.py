@@ -6,6 +6,7 @@ import requests
 import os
 import lxml.html
 import csv
+from subprocess import call
 from pymystem3 import Mystem
 m = Mystem()
 
@@ -71,6 +72,7 @@ def get_data(url):
     for part in text_main:
         text += part
 
+    text = title + '\n' + text
     result['text'] = text
 
     author = tree.xpath('.//span[@class="b-object__detail__author__name"]//text()')
@@ -154,19 +156,19 @@ def create_meta(file_name = 'meta.csv'):
                    'country',
                    'region',
                    'language']
-    with open(file_name) as csvfile:
+    with open(file_name, 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=field_names)
         writer.writeheader()
 
 
-def add_to_meta(data, file_name = 'meta.csv'):
+def add_to_meta(data, file_name='meta.csv'):
     data_for_meta = {}
     data_for_meta['path'] = data['path']
     data_for_meta['author'] = data['author']
     data_for_meta['sex'] = ''
     data_for_meta['birthday'] = ''
-    data_for_meta['header'] = ''
-    data_for_meta['created'] = date['full']
+    data_for_meta['header'] = data['title']
+    data_for_meta['created'] = data['date']['full']
     data_for_meta['sphere'] = 'публицистика'
     data_for_meta['genre_fi'] = ''
     data_for_meta['type'] = ''
@@ -188,7 +190,7 @@ def add_to_meta(data, file_name = 'meta.csv'):
         field_names = ['path',
                 'author',
                 'sex',
-                'birthday'
+                'birthday',
                 'header',
                 'created',
                 'sphere',
@@ -212,29 +214,38 @@ def add_to_meta(data, file_name = 'meta.csv'):
         writer.writerow(data_for_meta)
 
 urls = get_urls()
-with open('meta.csv','w') as f:
-    f.write('path\tauthor\tdate(dd.mm.yyyy)\ttitle\tlem_title\tcategory\tURL')
-for url in urls:
+create_meta()
+for index, url in enumerate(urls):
     data = get_data(url)
-    path = './texts/' + data['date']['year'] + '/' +  data['date']['month'] + '/' +  data['date']['day'] +'/'
-    path_mystem = './texts_mystem/' + data['date']['year'] + '/' +  data['date']['month'] + '/' +  data['date']['day'] +'/'
-    if not os.path.exists(path):
-        os.makedirs(path)
-    if not os.path.exists(path_mystem):
-        os.makedirs(path_mystem)    
-    with open(path_mystem + data['title'],'w') as f:
-        f.write(get_gramm_text(data['title']) + '\n' + get_gramm_text(data['text']))
-    with open(path + data['title'],'w') as f:
-        f.write(data['title'] + '\n' + data['text'])    
-    with open('meta.csv','a') as f:
-        f.write('\n'+  path+ data['title']
-                + '\t'+ data['author']
-               + '\t' + data['date']['day'] + '.' + data['date']['month']+ '.' + data['date']['year']
-               +'\t' + data['title']
-               + '\t' + data['category']
-               + '\t' + data['URL']
-               + '\t' + get_lemmatized_title(data['title']))
+    path_raw_text = './texts/raw_text/' + data['date']['year'] + '/' +  data['date']['month'] + '/'
+    path_mystem_XML = './texts/mystem_XML/' + data['date']['year'] + '/' +  data['date']['month'] + '/'
+    path_mystem_plain_text = './texts/mystem_plain_text/' + data['date']['year'] + '/' +  data['date']['month'] + '/'
+    if not os.path.exists(path_raw_text):
+        os.makedirs(path_raw_text)
+    if not os.path.exists(path_mystem_XML):
+        os.makedirs(path_mystem_XML)
+    if not os.path.exists(path_mystem_plain_text):
+        os.makedirs(path_mystem_plain_text)
 
+    data['path'] = path_raw_text + str(index) + '.txt'
+    add_to_meta(data)
+
+    with open(data['path'],'w') as f:
+        f.write(data['text'])
+
+    call(['./mystem',
+          '-e UTF-8',
+          '-ndi',
+          data['path'],
+          path_mystem_plain_text + str(index) + '_mystem' + '.txt'])
+
+    call(['./mystem',
+          '-e UTF-8',
+          '-ndi',
+          '--format',
+          'xml',
+          data['path'],
+          path_mystem_XML + str(index) + '_mystem' + '.xml'])
 
 
 
