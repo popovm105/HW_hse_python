@@ -218,11 +218,14 @@ def add_to_meta(data, file_name='meta.csv'):
         writer.writerow(data_for_meta)
 
 
-urls = get_urls(SIZE=350)
+urls = get_urls(SIZE=400)
 create_meta()
 for index, url in enumerate(urls):
     # print(url)
-    data = get_data(url)
+    try:
+        data = get_data(url)
+    except:
+        continue
     #путь для текста статьи
     path_raw_text = './texts/raw_text/' + data['date']['year'] + '/' + data['date']['month'] + '/'
 
