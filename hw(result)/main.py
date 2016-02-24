@@ -93,7 +93,7 @@ def get_data(url):
 
     text = title + '\n' + text
     result['text'] = text
-    №достаем автора
+    #достаем автора
     author = tree.xpath('.//span[@class="b-object__detail__author__name"]//text()')
     if len(author) == 0:
         author = 'Noname'
@@ -138,7 +138,7 @@ def create_meta(file_name='meta.csv'):
     field_names = ['path',
                    'author',
                    'sex',
-                   'birthday'
+                   'birthday',
                    'header',
                    'created',
                    'sphere',
@@ -252,7 +252,7 @@ for index, url in enumerate(urls):
         f.write('@topic ' + data['category'] + '\n')
         f.write('@url ' + data['URL'] + '\n')
         f.write(data['text'])
-        
+
     #записываем файл с текстом обработанным mystem
     call(['/home/mikhail/programs/mystem/mystem',
           '-e UTF-8',
