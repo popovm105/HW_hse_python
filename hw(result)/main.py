@@ -3,8 +3,7 @@ import requests
 import os
 import lxml.html
 import csv
-from subprocess import call
-
+import subprocess
 
 def is_news_or_articles(str):
     '''
@@ -253,21 +252,26 @@ for index, url in enumerate(urls):
         f.write('@url ' + data['URL'] + '\n')
         f.write(data['text'])
 
+
     #записываем файл с текстом обработанным mystem
-    call(['/home/mikhail/programs/mystem/mystem',
+    echo = subprocess.Popen(('echo',data['text']), stdout=subprocess.PIPE)
+    subprocess.call([
+           '/home/mikhail/programs/mystem/mystem',
           '-e UTF-8',
           '-dicg',
-          data['path'],
-          path_mystem_plain_text + str(index) + '_mystem' + '.txt'])
+          '-',
+          path_mystem_plain_text + str(index) + '_mystem' + '.txt'], stdin=echo.stdout)
 
     #записываем файл с текстом обработанным mystem в виде XML
-    call(['/home/mikhail/programs/mystem/mystem',
+    echo = subprocess.Popen(('echo',data['text']), stdout=subprocess.PIPE)
+    subprocess.call(['/home/mikhail/programs/mystem/mystem',
           '-e UTF-8',
           '-dicg',
           '--format',
           'xml',
-          data['path'],
-          path_mystem_XML + str(index) + '_mystem' + '.xml'])
+          '-',
+          path_mystem_XML + str(index) + '_mystem' + '.xml'],stdin=echo.stdout)
 
     if index % 50 == 0:
         print(index)
+
