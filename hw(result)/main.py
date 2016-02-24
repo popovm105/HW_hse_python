@@ -7,8 +7,7 @@ import os
 import lxml.html
 import csv
 from subprocess import call
-from pymystem3 import Mystem
-m = Mystem()
+
 
 
 
@@ -94,8 +93,6 @@ def get_data(url):
     return result
 
 
-
-
 def get_date(str):
     date={}
     date_parts = re.search('(\d+)\.(\d+)\.(\d+)',str)
@@ -107,33 +104,6 @@ def get_date(str):
 
 
 
-
-
-
-
-
-
-
-def get_lemmatized_title(title):
-    lemmas = m.lemmatize(title)
-    lemmatized_title = ''
-    for lem in lemmas[:-1]:
-        lemmatized_title += lem
-    return lemmatized_title
-        
-    
-
-def get_gramm_text(text):
-    gramm_text = ''
-    gramm_temp = m.analyze(text)
-    for token in gramm_temp:
-        if len(token) > 1:
-            if len(token['analysis']) > 0:
-                gramm_text += token['text'] + '\t' + token['analysis'][0]['lex'] +  '\t' + token['analysis'][0]['gr'] + '\n' 
-            else:
-                gramm_text += token['text'] + '\t' + 'None' +  '\t' + 'None' + '\n' 
-      
-    return gramm_text
 
 def create_meta(file_name = 'meta.csv'):
     field_names = ['path',
@@ -216,7 +186,7 @@ def add_to_meta(data, file_name='meta.csv'):
         writer = csv.DictWriter(csvfile, fieldnames=field_names)
         writer.writerow(data_for_meta)
 
-urls = get_urls(SIZE=10)
+urls = get_urls(SIZE=350)
 create_meta()
 for index, url in enumerate(urls):
     #print(url)
