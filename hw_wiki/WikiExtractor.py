@@ -47,7 +47,7 @@ extracting template definitions.
 import sys, os.path
 import re, random
 import argparse
-from itertools import zip
+from itertools import izip
 import logging, traceback
 import urllib
 import bz2, gzip
