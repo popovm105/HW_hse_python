@@ -11,6 +11,19 @@ HOMETOWN = 'Озерск'
 
 
 def clean_users_data(users):
+    '''
+    Функция приводит данные о пользователях в удобный вид:
+    массив словарей
+    uid: id пользователя,
+    last_name: фамилия,
+    first_name: имя,
+    sex: пол,
+    bdate:дата рождения,
+    city: город проживания
+    langs: языки которыми владеет пользователь
+
+    :param users: список пользователей
+    '''
     for user in users:
         if user['city'] != 0:
             user['city'] = api.database.getCitiesById(city_ids=user['city'])[0]['name']
@@ -33,6 +46,12 @@ def clean_users_data(users):
 
 
 def get_posts(user_id, path = './posts/'):
+    '''
+    Функция создает для каждого пользователя файл с его постами каждый пост заключен в тег <post>
+     с атрибутами id поста и дата поста
+    :param user_id: id пользователя
+    :param path: папка для файлов постов
+    '''
     if not os.path.exists(path):
         os.makedirs(path)
     posts = api.wall.get(owner_id=user_id, filter='owner', count=100)[1:]
@@ -50,15 +69,17 @@ def get_posts(user_id, path = './posts/'):
 if __name__ == "__main__":
     session = vk.AuthSession(APPID, EMAIL, PASSWORD)
     api = vk.API(session)
+    #находим пользователей из HOMETOWN
     users = api.users.search(hometown=HOMETOWN, count=1000, fields='sex, bdate, city, country,  personal')[1:]
 
     clean_users_data(users)
+    #создаем файл с метаданными
     with open('meta.tsv', 'w') as tsvFile:
         fieldNames = ['uid', 'last_name', 'first_name', 'sex', 'bdate',	'city',	'langs']
         writer = csv.DictWriter(tsvFile, fieldnames=fieldNames, delimiter='\t')
         writer.writeheader()
         writer.writerows(users)
-
+    #создаем файлы с постами
     for index, user in enumerate(users):
         get_posts(user['uid'])
         time.sleep(0.3)
