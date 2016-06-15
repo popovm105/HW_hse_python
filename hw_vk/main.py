@@ -66,6 +66,26 @@ def get_posts(user_id, path = './posts/'):
                 f.write(text)
 
 
+def delete_empty_files(path = './posts/', meta ='./meta.tsv'):
+    #удаляем пустые файлы и создаем новый список пользователей без пустых файлов
+    not_empty_users = []
+    with open(meta) as tsvfile:
+        reader = csv.DictReader(tsvfile, delimiter='\t')
+        for row in reader:
+            print(path + row['uid'] + '.txt')
+            if  os.stat(path + row['uid'] + '.txt').st_size == 0:
+                os.remove(path + row['uid'] + '.txt')
+            else:
+                not_empty_users.append(row)
+
+    #переписываем метаданные  без пользователей с пустыми файлами
+    with open('meta.tsv', 'w') as tsvfile:
+        field_names = ['uid', 'last_name', 'first_name', 'sex', 'bdate',	'city',	'langs']
+        writer = csv.DictWriter(tsvfile, fieldnames=field_names, delimiter='\t')
+        writer.writeheader()
+        writer.writerows(not_empty_users)
+
+
 if __name__ == "__main__":
     session = vk.AuthSession(APPID, EMAIL, PASSWORD)
     api = vk.API(session)
@@ -85,4 +105,5 @@ if __name__ == "__main__":
         time.sleep(0.3)
         if (index + 1) % 50 == 0:
             print(index+1)
-
+    #удаляем пользователей без постов и их файлы
+    delete_empty_files()
