@@ -1,12 +1,7 @@
-
-
 import bs4
 import csv
-
-
-
-
-
+import sys
+import os
 
 def get_data_from_token1(token):
     data = {}
@@ -65,11 +60,6 @@ def make_list_for_prs(text):
     return list_for_prs
 
         
-
-    
-    
-
-
 
 def add_hash_to_keys(list_of_dictionaries):
     for item in list_of_dictionaries:
@@ -146,38 +136,45 @@ def create_xml_str(list_from_prs):
     return xml_str
 
 
-if __name__ == "__main__":   
-    #делаем из xml_corp new.prs
-    with open('xml_corp') as f:
-        text = f.read()
+if __name__ == "__main__":
 
-    result = make_list_for_prs(text)
-    result = add_punct_to_words(result)
-    add_hash_to_keys(result)
+    if len(sys.argv) == 3:
+        input_file = sys.argv[1]
+        output_file = sys.argv[2]
+        if os.path.isfile(input_file):
+            if input_file.endswith('.xml'):   
+                with open(input_file) as f:
+                    text = f.read()
 
-    with open('new.prs', 'w') as prsfile:
-        fieldnames = ['#sentno', '#wordno', '#word'] + sorted([key for key in result[0].keys() if key not in ['#sentno', '#wordno','#word','#type']])
+                result = make_list_for_prs(text)
+                result = add_punct_to_words(result)
+                add_hash_to_keys(result)
 
-        writer = csv.DictWriter(prsfile, fieldnames=fieldnames, delimiter='\t')
-        writer.writeheader()
-        for item in result:
-            item.pop('#type')
-            writer.writerow(item)
+                with open(output_file, 'w') as prsfile:
+                    fieldnames = ['#sentno', '#wordno', '#word'] + sorted([key for key in result[0].keys() if key not in ['#sentno', '#wordno','#word','#type']])
 
+                    writer = csv.DictWriter(prsfile, fieldnames=fieldnames, delimiter='\t')
+                    writer.writeheader()
+                    for item in result:
+                        item.pop('#type')
+                        writer.writerow(item)
 
-    #делаем из new.prs new.xml
+            elif input_file.endswith('.prs'): 
 
-    list_from_prs = []
-    with open('new.prs') as prsfile:
-        reader = csv.DictReader(prsfile, delimiter='\t')
+                list_from_prs = []
+                with open(input_file) as prsfile:
+                    reader = csv.DictReader(prsfile, delimiter='\t')
         
-        for row in reader:
-            list_from_prs.append(row)
-    with open('new.xml','w') as f:
-        f.write(create_xml_str(list_from_prs))
-
-
-
+                    for row in reader:
+                        list_from_prs.append(row)
+                with open(output_file,'w') as f:
+                    f.write(create_xml_str(list_from_prs))
+            else:
+                print('Неверный формат исходного файла')
+        else:
+            print('Неверно указан исходный файл')
+    else:
+        print('неверное число параметров')
 
 
 

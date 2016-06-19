@@ -1,0 +1,61 @@
+<body>
+  <se>
+    <w>
+      <ana lex="ун" gr="NUM,poss.2sg" trans="десять" morph="ың" />
+      <ana lex="ун" gr="SPRO,poss.2sg" trans="он" morph="ың" />
+      Уның
+    </w>
+    <w>
+      <ana lex="һүҙ" gr="S,poss.3sg/pl" trans="слово" morph="е" />
+      һүҙе
+    </w>
+    <w>
+      <ana lex="тере" gr="ADJ,nom,sg" trans="живой" morph="Ø" />
+      тере
+    </w>
+    <w>
+      тере
+    </w>
+  </se>
+  <se>
+    <w>
+      <ana lex="ул" gr="SPRO,nom,sg" trans="он" morph="Ø" />
+      <ana lex="ул" gr="S,nom,sg" trans="сын" morph="Ø" />
+      Ул
+    </w>
+    <w>
+      <ana lex="вәғәҙә" gr="S,nom,sg" trans="обещание" morph="Ø" />
+      вәғәҙә
+    </w>
+    ,
+    <w>
+      <ana lex="һүҙ" gr="S,pl" trans="слово" morph="ҙәр" />
+      һүҙҙәр
+    </w>
+    <w>
+      <ana lex="йыш" gr="ADJ,nom,sg" trans="частый" morph="Ø" />
+      <ana lex="йыш" gr="V,imp" trans="строгать" morph="Ø" />
+      йыш
+    </w>
+  </se>
+  <se>
+    <w>
+      <ana lex="һүҙ" gr="S,abe" trans="слово" morph="һеҙ" />
+      Һүҙһеҙ
+    </w>
+    <w>
+      <ana lex="генә" gr="PART" trans="" morph="" />
+      генә
+    </w>
+    <w>
+      <ana lex="тор" gr="V,pst.def" trans="стоять" morph="ҙо" />
+      торҙо
+    </w>
+    <w>
+      <ana lex="һүҙ" gr="S,poss.3sg,loc" trans="слово" morph="ен,дә" />
+      <ana lex="һүҙ" gr="S,loc" trans="слово" morph="ендә" />
+      һүҙендә
+    </w>
+    .
+  </se>
+</body>
