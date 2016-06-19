@@ -49,7 +49,7 @@ def corrector(standard_file_path, dirty_file_path, R_O_value = 0.85):
                         print(se_dirty.text)
                         print(se_standard.text)
                         print('='*100)
-                        #se_dirty.string = se_standard.string
+                        se_dirty.string = se_standard.string
                         
                        
     with open(dirty_file_path,'w') as f:
