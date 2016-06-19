@@ -1,0 +1,751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html>
+<head>
+</head>
+<body>
+  <para id="0">
+    <se lang="uk" variant_id="0">Pale Fire</se>
+    <se lang="ru" variant_id="1">БЛЕДНЫЙ ОГОНЬ</se>
+  </para>
+  <para id="1">
+    <se lang="uk" variant_id="0">A POEM IN FOUR CANTOS</se>
+    <se lang="ru" variant_id="1">Поэма в четырех песнях</se>
+  </para>
+  <para id="2">
+    <se lang="uk" variant_id="0">CANTO ONE</se>
+    <se lang="ru" variant_id="1">ПЕСНЬ ПЕРВАЯ</se>
+  </para>
+  <para id="3">
+    <se lang="uk" variant_id="0">1 I was the shadow of the waxwing slain</se>
+    <se lang="ru" variant_id="1">Я тенью сойки был, нашедшей смерть</se>
+  </para>
+  <para id="4">
+    <se lang="uk" variant_id="0">By the false azure in the windowpane;</se>
+    <se lang="ru" variant_id="1">В лазури лживой, грянувшись о твердь</se>
+  </para>
+  <para id="5">
+    <se lang="uk" variant_id="0">I was the smudge of ashen fluff вЂ” and I</se>
+    <se lang="ru" variant_id="1">Стекла; я пухом был белесым — он</se>
+  </para>
+  <para id="6">
+    <se lang="uk" variant_id="0">Lived on, flew on, in the reflected sky.</se>
+    <se lang="ru" variant_id="1">Парил, все в том же небе отражен.</se>
+  </para>
+  <para id="7">
+    <se lang="uk" variant_id="0">And from the inside, too, IвЂ™d duplicate</se>
+    <se lang="ru" variant_id="1">И изнутри удвоен был в стекле</se>
+  </para>
+  <para id="8">
+    <se lang="uk" variant_id="0">Myself, my lamp, an apple on a plate:</se>
+    <se lang="ru" variant_id="1">Я сам, мой стол и лампа на столе —</se>
+  </para>
+  <para id="9">
+    <se lang="uk" variant_id="0">Uncurtaining the night, IвЂ™d let dark glass</se>
+    <se lang="ru" variant_id="1">Как будто ночью над травой смогло</se>
+  </para>
+  <para id="10">
+    <se lang="uk" variant_id="0">Hang all the furniture above the grass,</se>
+    <se lang="ru" variant_id="1">Подвесить мебель темное стекло.</se>
+  </para>
+  <para id="11">
+    <se lang="uk" variant_id="0">And how delightful when a fall of snow</se>
+    <se lang="ru" variant_id="1">А что за дивный вид, когда газон</se>
+  </para>
+  <para id="12">
+    <se lang="uk" variant_id="0">10 Covered my glimpse of lawn and reached up so</se>
+    <se lang="ru" variant_id="1">Настолько снегопадом занесен,</se>
+  </para>
+  <para id="13">
+    <se lang="uk" variant_id="0">As to make chair and bed exactly stand</se>
+    <se lang="ru" variant_id="1">Что кресла и кровать совсем вовне</se>
+  </para>
+  <para id="14">
+    <se lang="uk" variant_id="0">Upon that snow, out in that crystal land!</se>
+    <se lang="ru" variant_id="1">Стоят — в снегу, в кристальной той стране!</se>
+  </para>
+  <para id="15">
+    <se lang="uk" variant_id="0">Retake the falling snow: each drifting flake</se>
+    <se lang="ru" variant_id="1">Вот — снегопад: подобьем мутной мглы</se>
+  </para>
+  <para id="16">
+    <se lang="uk" variant_id="0">Shapeless and slow, unsteady and opaque,</se>
+    <se lang="ru" variant_id="1">Медлительно летящие валы,</se>
+  </para>
+  <para id="17">
+    <se lang="uk" variant_id="0">A dull dark white against the dayвЂ™s pale white</se>
+    <se lang="ru" variant_id="1">Их плотный строй в бесплотном свете дня</se>
+  </para>
+  <para id="18">
+    <se lang="uk" variant_id="0">And abstract larches in the neutral light.</se>
+    <se lang="ru" variant_id="1">И сосны в блеске блеклого огня.</se>
+  </para>
+  <para id="19">
+    <se lang="uk" variant_id="0">And then the gradual and dual blue</se>
+    <se lang="ru" variant_id="1">Затем грядет пора голубизны,</se>
+  </para>
+  <para id="20">
+    <se lang="uk" variant_id="0">As night unites the viewer and the view,</se>
+    <se lang="ru" variant_id="1">Смешавшей ночью спящего и сны;</se>
+  </para>
+  <para id="21">
+    <se lang="uk" variant_id="0">And in the morning, diamonds of frost</se>
+    <se lang="ru" variant_id="1">И — утренний вопрос: кто он таков,</se>
+  </para>
+  <para id="22">
+    <se lang="uk" variant_id="0">20 Express amazement: Whose spurred feet have crossed</se>
+    <se lang="ru" variant_id="1">Что накрестил загадочных следков</se>
+  </para>
+  <para id="23">
+    <se lang="uk" variant_id="0">From left to right the blank page of the road?</se>
+    <se lang="ru" variant_id="1">На чистый лист аллеи у ворот?</se>
+  </para>
+  <para id="24">
+    <se lang="uk" variant_id="0">Reading from left to right in winterвЂ™s code:</se>
+    <se lang="ru" variant_id="1">— И ты читаешь этот зимний код:</se>
+  </para>
+  <para id="25">
+    <se lang="uk" variant_id="0">A dot, an arrow pointing back; repeat:</se>
+    <se lang="ru" variant_id="1">Вот — точка; рядом — стрелочки назад;</se>
+  </para>
+  <para id="26">
+    <se lang="uk" variant_id="0">Dot, arrow pointing back...</se>
+    <se lang="ru" variant_id="1">И снова — точка, стрелочки…</se>
+  </para>
+  <para id="27">
+    <se lang="uk" variant_id="0">A pheasantвЂ™s feet!</se>
+    <se lang="ru" variant_id="1">Фазан —</se>
+  </para>
+  <para id="28">
+    <se lang="uk" variant_id="0">Torquated beauty, sublimated grouse,</se>
+    <se lang="ru" variant_id="1">Вертун прелестный, чуткий глухарек,</se>
+  </para>
+  <para id="29">
+    <se lang="uk" variant_id="0">Finding your China right behind my house.</se>
+    <se lang="ru" variant_id="1">Исчиркавший Китаем мой порог!</se>
+  </para>
+  <para id="30">
+    <se lang="uk" variant_id="0">Was he in Sherlock Holmes, the fellow whose</se>
+    <se lang="ru" variant_id="1">Так вор носил, сбивая Холмсу след,</se>
+  </para>
+  <para id="31">
+    <se lang="uk" variant_id="0">Tracks pointed back when he reversed his shoes?</se>
+    <se lang="ru" variant_id="1">Назад носком подошвы от штиблет.</se>
+  </para>
+  <para id="32">
+    <se lang="uk" variant_id="0">All colors made me happy: even gray.</se>
+    <se lang="ru" variant_id="1">Я рад любому цвету: даже грязь</se>
+  </para>
+  <para id="33">
+    <se lang="uk" variant_id="0">30 My eyes were such that literally they</se>
+    <se lang="ru" variant_id="1">И серый цвет приемлю не сердясь.</se>
+  </para>
+  <para id="34">
+    <se lang="uk" variant_id="0">Took photographs.</se>
+    <se lang="ru" variant_id="1">Мои глаза — фотографу сродни:</se>
+  </para>
+  <para id="35">
+    <se lang="uk" variant_id="0">Whenever IвЂ™d permit,</se>
+    <se lang="ru" variant_id="1">Позволь им, прикажи им — и они</se>
+  </para>
+  <para id="36">
+    <se lang="uk" variant_id="0">Or, with a silent shiver, order it,</se>
+    <se lang="ru" variant_id="1">Запечатлеют вмиг любой предмет,</se>
+  </para>
+  <para id="37">
+    <se lang="uk" variant_id="0">Whatever in my field of vision dwelt вЂ”</se>
+    <se lang="ru" variant_id="1">Орешника листву или стилет</se>
+  </para>
+  <para id="38">
+    <se lang="uk" variant_id="0">An indoor scene, hickory leaves, the svelte</se>
+    <se lang="ru" variant_id="1">Сосульки: что бы ни было — оно</se>
+  </para>
+  <para id="39">
+    <se lang="uk" variant_id="0">Stilettos of a frozen stillicide вЂ”</se>
+    <se lang="ru" variant_id="1">На веках изнутри закреплено</se>
+  </para>
+  <para id="40">
+    <se lang="uk" variant_id="0">Was printed on my eyelidsвЂ™ nether side</se>
+    <se lang="ru" variant_id="1">И медлит там. И если через час</se>
+  </para>
+  <para id="41">
+    <se lang="uk" variant_id="0">Where it would tarry for an hour or two,</se>
+    <se lang="ru" variant_id="1">Закрою веки — снова видит глаз</se>
+  </para>
+  <para id="42">
+    <se lang="uk" variant_id="0">And while this lasted all I had to do</se>
+    <se lang="ru" variant_id="1">Все ту же ветвь, свисающую вниз,</se>
+  </para>
+  <para id="43">
+    <se lang="uk" variant_id="0">Was close my eyes to reproduce the leaves,</se>
+    <se lang="ru" variant_id="1">И зыбкий под трофеями карниз.</se>
+  </para>
+  <para id="44">
+    <se lang="uk" variant_id="0">40 Or indoor scene, or trophies of the eaves.</se>
+    <se lang="ru" variant_id="1">Я не пойму: ведь в школьные года</se>
+  </para>
+  <para id="45">
+    <se lang="uk" variant_id="0">I cannot understand why from the lake</se>
+    <se lang="ru" variant_id="1">Я мог еще с Лейк-роуд без труда —</se>
+  </para>
+  <para id="46">
+    <se lang="uk" variant_id="0">I could make out our front porch when IвЂ™d take</se>
+    <se lang="ru" variant_id="1">От озера </se>
+  </para>
+  <para id="47">
+    <se lang="uk" variant_id="0">Lake Road to school, whilst now, although no tree</se>
+    <se lang="ru" variant_id="1">— увидеть свой балкон.</se>
+  </para>
+  <para id="48">
+    <se lang="uk" variant_id="0">Has intervened, I look but fail to see</se>
+    <se lang="ru" variant_id="1">Теперь — и крыши не видать.</se>
+  </para>
+  <para id="49">
+    <se lang="uk" variant_id="0">Even the roof.</se>
+    <se lang="ru" variant_id="1">Где он, Мой дом?</se>
+  </para>
+  <para id="50">
+    <se lang="uk" variant_id="0">Maybe some quirk in space</se>
+    <se lang="ru" variant_id="1">Деревья разрослись? Да нет.</se>
+  </para>
+  <para id="51">
+    <se lang="uk" variant_id="0">Has caused a fold or furrow to displace</se>
+    <se lang="ru" variant_id="1">Чудит пространство, видно: кружит след,</se>
+  </para>
+  <para id="52">
+    <se lang="uk" variant_id="0">The fragile vista, the frame house between</se>
+    <se lang="ru" variant_id="1">Чтоб я не смог свой старый дом найти</se>
+  </para>
+  <para id="53">
+    <se lang="uk" variant_id="0">Goldsworth and Wordsmith on its square of green.</se>
+    <se lang="ru" variant_id="1">Меж Голдсвортом и Вордсмитом в пути.</se>
+  </para>
+  <para id="54">
+    <se lang="uk" variant_id="0">I had a favorite young shagbark there</se>
+    <se lang="ru" variant_id="1">Люблю я здесь орешник юный свой</se>
+  </para>
+  <para id="55">
+    <se lang="uk" variant_id="0">50 With ample dark jade leaves and a black, spare,</se>
+    <se lang="ru" variant_id="1">С тяжелою нефритовой листвой;</se>
+  </para>
+  <para id="56">
+    <se lang="uk" variant_id="0">Vermiculated trunk. The setting sun</se>
+    <se lang="ru" variant_id="1">Червеобразен ствол его; кору</se>
+  </para>
+  <para id="57">
+    <se lang="uk" variant_id="0">Bronzed the black bark, around which, like undone</se>
+    <se lang="ru" variant_id="1">Восходы бронзой красят поутру.</se>
+  </para>
+  <para id="58">
+    <se lang="uk" variant_id="0">Garlands, the shadows of the foliage fell.</se>
+    <se lang="ru" variant_id="1">Он так раскидист, крепок! Но едва</se>
+  </para>
+  <para id="59">
+    <se lang="uk" variant_id="0">It is now stout and rough; it has done well.</se>
+    <se lang="ru" variant_id="1">Отбросит тень дрожащая листва</se>
+  </para>
+  <para id="60">
+    <se lang="uk" variant_id="0">White butterflies turn lavender as they</se>
+    <se lang="ru" variant_id="1">(В ней бабочки качаются, летя) —</se>
+  </para>
+  <para id="61">
+    <se lang="uk" variant_id="0">Pass through its shade where gently seems to sway</se>
+    <se lang="ru" variant_id="1">Как тот же призрак предо мной, хотя</se>
+  </para>
+  <para id="62">
+    <se lang="uk" variant_id="0">The phantom of my little daughterвЂ™s swing.</se>
+    <se lang="ru" variant_id="1">Качелей дочки след простыл давно.</se>
+  </para>
+  <para id="63">
+    <se lang="uk" variant_id="0">The house itself is much the same.</se>
+    <se lang="ru" variant_id="1">Наш дом не изменился.</se>
+  </para>
+  <para id="64">
+    <se lang="uk" variant_id="0">One wing</se>
+    <se lang="ru" variant_id="1">Лишь одно</se>
+  </para>
+  <para id="65">
+    <se lang="uk" variant_id="0">WeвЂ™ve had revamped.</se>
+    <se lang="ru" variant_id="1">Крыло мы перестроили — и там</se>
+  </para>
+  <para id="66">
+    <se lang="uk" variant_id="0">ThereвЂ™s a solarium. ThereвЂ™s</se>
+    <se lang="ru" variant_id="1">Теперь веранда, кресла по углам, —</se>
+  </para>
+  <para id="67">
+    <se lang="uk" variant_id="0">60 A picture window flanked with fancy chairs.</se>
+    <se lang="ru" variant_id="1">Да вместо флюгерка всадили трость</se>
+  </para>
+  <para id="68">
+    <se lang="uk" variant_id="0">TVвЂ™s huge paperclip now shines instead</se>
+    <se lang="ru" variant_id="1">Телеантенны. И на ней наш гость —</se>
+  </para>
+  <para id="69">
+    <se lang="uk" variant_id="0">Of the stiff vane so often visited</se>
+    <se lang="ru" variant_id="1">Наивный пересмешник — по утрам</se>
+  </para>
+  <para id="70">
+    <se lang="uk" variant_id="0">By the naГЇve, the gauzy mockingbird</se>
+    <se lang="ru" variant_id="1">Перепевает вариант программ:</se>
+  </para>
+  <para id="71">
+    <se lang="uk" variant_id="0">Retelling all the programs she had heard;</se>
+    <se lang="ru" variant_id="1">Начав с «чип-чип», пиликает потом</se>
+  </para>
+  <para id="72">
+    <se lang="uk" variant_id="0">Switching from chippo-chippo to a clear</se>
+    <se lang="ru" variant_id="1">«Кош-марр», «кош-марр» — и дергает хвостом</se>
+  </para>
+  <para id="73">
+    <se lang="uk" variant_id="0">To-wee, to-wee; then rasping out: come here,</se>
+    <se lang="ru" variant_id="1">Или, порхнув изящно на скаку,</se>
+  </para>
+  <para id="74">
+    <se lang="uk" variant_id="0">Come here, come herrrвЂ™; flirting her tail aloft,</se>
+    <se lang="ru" variant_id="1">Обратно возвращается к шестку —</se>
+  </para>
+  <para id="75">
+    <se lang="uk" variant_id="0">Or gracefully indulging in a soft</se>
+    <se lang="ru" variant_id="1">К своей антенне нового TV, —</se>
+  </para>
+  <para id="76">
+    <se lang="uk" variant_id="0">Upward hop-flop, and instantly (to-wee!)</se>
+    <se lang="ru" variant_id="1">Пропев весьма прозрачное «ту-ви».</se>
+  </para>
+  <para id="77">
+    <se lang="uk" variant_id="0">70 Returning to her perch вЂ” the new TV.</se>
+    <se lang="ru" variant_id="1">Отца и мать не помню я давно.</se>
+  </para>
+  <para id="78">
+    <se lang="uk" variant_id="0">I was an infant when my parents died.</se>
+    <se lang="ru" variant_id="1">Ну, были орнитологами. Но</se>
+  </para>
+  <para id="79">
+    <se lang="uk" variant_id="0">They both were ornithologists.</se>
+    <se lang="ru" variant_id="1">Они ушли, запомнившись едва.</se>
+  </para>
+  <para id="80">
+    <se lang="uk" variant_id="0">IвЂ™ve tried So often to evoke them that today</se>
+    <se lang="ru" variant_id="1">«Инфаркт» и «рак» —</se>
+  </para>
+  <para id="81">
+    <se lang="uk" variant_id="0">I have a thousand parents.</se>
+    <se lang="ru" variant_id="1"></se>
+  </para>
+  <para id="82">
+    <se lang="uk" variant_id="0">Sadly they</se>
+    <se lang="ru" variant_id="1">Вот все, что с ними связано.</se>
+  </para>
+  <para id="83">
+    <se lang="uk" variant_id="0">Dissolve in their own virtues and recede,</se>
+    <se lang="ru" variant_id="1">Зато</se>
+  </para>
+  <para id="84">
+    <se lang="uk" variant_id="0">But certain words, chance words I hear or read,</se>
+    <se lang="ru" variant_id="1">Так часто их вернуть хотел я, что</se>
+  </para>
+  <para id="85">
+    <se lang="uk" variant_id="0">Such as "bad heart" always to him refer,</se>
+    <se lang="ru" variant_id="1">Сегодня у меня в конце концов —</se>
+  </para>
+  <para id="86">
+    <se lang="uk" variant_id="0">And "cancer of the pancreas" to her.</se>
+    <se lang="ru" variant_id="1">Сто матерей и сто моих отцов.</se>
+  </para>
+  <para id="87">
+    <se lang="uk" variant_id="0">A preterist: one who collects cold nests.</se>
+    <se lang="ru" variant_id="1">Прошлокопатель: сторож гнезд пустых.</se>
+  </para>
+  <para id="88">
+    <se lang="uk" variant_id="0">80 Here was my bedroom, now reserved for guests.</se>
+    <se lang="ru" variant_id="1">Вот — детская. Бывало, за родных,</se>
+  </para>
+  <para id="89">
+    <se lang="uk" variant_id="0">Here, tucked away by the Canadian maid,</se>
+    <se lang="ru" variant_id="1">За няню, уложившую в постель,</se>
+  </para>
+  <para id="90">
+    <se lang="uk" variant_id="0">I listened to the buzz downstairs and prayed</se>
+    <se lang="ru" variant_id="1">И за ее племянницу Адель,</se>
+  </para>
+  <para id="91">
+    <se lang="uk" variant_id="0">For everybody to be always well,</se>
+    <se lang="ru" variant_id="1">Что в Риме Папу видела, и за</se>
+  </para>
+  <para id="92">
+    <se lang="uk" variant_id="0">Uncles and aunts, the maid, her niece AdГЁle</se>
+    <se lang="ru" variant_id="1">Людей из книг, за Бога — я, глаза</se>
+  </para>
+  <para id="93">
+    <se lang="uk" variant_id="0">WhoвЂ™d seen the Pope, people in books, and God.</se>
+    <se lang="ru" variant_id="1">Закрыв, молюсь, покуда сон нейдет.</se>
+  </para>
+  <para id="94">
+    <se lang="uk" variant_id="0">I was brought up by dear bizarre Aunt Maud,</se>
+    <se lang="ru" variant_id="1">Я был взращен чудачкой тетей Мод,</se>
+  </para>
+  <para id="95">
+    <se lang="uk" variant_id="0">A poet and a painter with a taste</se>
+    <se lang="ru" variant_id="1">Картины и стихи писавшей — сплав</se>
+  </para>
+  <para id="96">
+    <se lang="uk" variant_id="0">For realistic objects interlaced</se>
+    <se lang="ru" variant_id="1">Реалий, снов судьбы и странных трав.</se>
+  </para>
+  <para id="97">
+    <se lang="uk" variant_id="0">With grotesque growths and images of doom.</se>
+    <se lang="ru" variant_id="1">Была во мне одном судьба ее.</se>
+  </para>
+  <para id="98">
+    <se lang="uk" variant_id="0">90 She lived to hear the next babe cry.</se>
+    <se lang="ru" variant_id="1">Мы тетино не тронули жилье,</se>
+  </para>
+  <para id="99">
+    <se lang="uk" variant_id="0">Her room WeвЂ™ve kept intact.</se>
+    <se lang="ru" variant_id="1">В нем живописность — </se>
+  </para>
+  <para id="100">
+    <se lang="uk" variant_id="0">Its trivia create</se>
+    <se lang="ru" variant_id="1">та же, что была:</se>
+  </para>
+  <para id="101">
+    <se lang="uk" variant_id="0">A still life in her style: the paperweight</se>
+    <se lang="ru" variant_id="1">Там пресс-папье из гнутого стекла</se>
+  </para>
+  <para id="102">
+    <se lang="uk" variant_id="0">Of convex glass enclosing a lagoon,</se>
+    <se lang="ru" variant_id="1">Соседствует с гитарой; до сих пор</se>
+  </para>
+  <para id="103">
+    <se lang="uk" variant_id="0">The verse book open at the Index (Moon,</se>
+    <se lang="ru" variant_id="1">На индексе каком-то («Мур, «Моор»,</se>
+  </para>
+  <para id="104">
+    <se lang="uk" variant_id="0">Moonrise, Moor, Moral), the forlorn guitar,</se>
+    <se lang="ru" variant_id="1">«Мораль») открыт стихов потертый том;</se>
+  </para>
+  <para id="105">
+    <se lang="uk" variant_id="0">The human skull; and from the local Star</se>
+    <se lang="ru" variant_id="1">Курьез из местной «Стар» гласит о том,</se>
+  </para>
+  <para id="106">
+    <se lang="uk" variant_id="0">A curio: Red Sox Beat Yanks 5-4</se>
+    <se lang="ru" variant_id="1">Что «О Гомере Чапмена опять</se>
+  </para>
+  <para id="107">
+    <se lang="uk" variant_id="0">On ChapmanвЂ™s Homer, thumbtacked to the door.</se>
+    <se lang="ru" variant_id="1">“Ред Сокс” и “Янкс” поспорили — 3:5».</se>
+  </para>
+  <para id="108">
+    <se lang="uk" variant_id="0">My God died young.</se>
+    <se lang="ru" variant_id="1">Мой Бог скончался юным.</se>
+  </para>
+  <para id="109">
+    <se lang="uk" variant_id="0">Theolatry I found</se>
+    <se lang="ru" variant_id="1">Я решил:</se>
+  </para>
+  <para id="110">
+    <se lang="uk" variant_id="0">100 Degrading, and its premises, unsound.</se>
+    <se lang="ru" variant_id="1">Религия идет к упадку сил,</se>
+  </para>
+  <para id="111">
+    <se lang="uk" variant_id="0">No free man needs a God; but was I free?</se>
+    <se lang="ru" variant_id="1">Свободным людям Бог не нужен. Но</se>
+  </para>
+  <para id="112">
+    <se lang="uk" variant_id="0">How fully I felt nature glued to me</se>
+    <se lang="ru" variant_id="1">Я сам — свободен был? Исключено:</se>
+  </para>
+  <para id="113">
+    <se lang="uk" variant_id="0">And how my childish palate loved the taste</se>
+    <se lang="ru" variant_id="1">Полумедовый, полурыбий вкус</se>
+  </para>
+  <para id="114">
+    <se lang="uk" variant_id="0">Half-fish, half-honey, of that golden paste!</se>
+    <se lang="ru" variant_id="1">Халвы всегда вводил меня в искус.</se>
+  </para>
+  <para id="115">
+    <se lang="uk" variant_id="0">My picture book was at an early age</se>
+    <se lang="ru" variant_id="1">Мир пестрых книг (изданья для детей)</se>
+  </para>
+  <para id="116">
+    <se lang="uk" variant_id="0">The painted parchment papering our cage:</se>
+    <se lang="ru" variant_id="1">Был клеткой позолоченной моей;</se>
+  </para>
+  <para id="117">
+    <se lang="uk" variant_id="0">Mauve rings around the moon; blood-orange sun;</se>
+    <se lang="ru" variant_id="1">Оранжевое солнце; синь луны;</se>
+  </para>
+  <para id="118">
+    <se lang="uk" variant_id="0">Twinned Iris; and that rare phenomenon</se>
+    <se lang="ru" variant_id="1">Два ириса, загадочных, как сны;</se>
+  </para>
+  <para id="119">
+    <se lang="uk" variant_id="0">The iridule вЂ” when, beautiful and strange,</se>
+    <se lang="ru" variant_id="1">И — «радужницы»: это облака,</se>
+  </para>
+  <para id="120">
+    <se lang="uk" variant_id="0">110 In a bright sky above a mountain range</se>
+    <se lang="ru" variant_id="1">Овальные, прозрачные слегка,</se>
+  </para>
+  <para id="121">
+    <se lang="uk" variant_id="0">One opal cloudlet in an oval form</se>
+    <se lang="ru" variant_id="1">Беспечно отражающие свет</se>
+  </para>
+  <para id="122">
+    <se lang="uk" variant_id="0">Reflects the rainbow of a thunderstorm</se>
+    <se lang="ru" variant_id="1">От радуги, что вспыхнула вослед</se>
+  </para>
+  <para id="123">
+    <se lang="uk" variant_id="0">Which in a distant valley has been staged вЂ”</se>
+    <se lang="ru" variant_id="1">Грозе, ушедшей далее греметь.</se>
+  </para>
+  <para id="124">
+    <se lang="uk" variant_id="0">For we are most artistically caged.</se>
+    <se lang="ru" variant_id="1">Тюрьма — мы сами, но искусна клеть!</se>
+  </para>
+  <para id="125">
+    <se lang="uk" variant_id="0">And thereвЂ™s the wall of sound: the nightly wall</se>
+    <se lang="ru" variant_id="1">А рядом — звуков плотная стена:</se>
+  </para>
+  <para id="126">
+    <se lang="uk" variant_id="0">Raised by a trillion crickets in the fall.</se>
+    <se lang="ru" variant_id="1">Ночь осени сверчков полна, и на</se>
+  </para>
+  <para id="127">
+    <se lang="uk" variant_id="0">Impenetrable! Halfway up the hill</se>
+    <se lang="ru" variant_id="1">Холме я слушал трелей этих бред.</se>
+  </para>
+  <para id="128">
+    <se lang="uk" variant_id="0">IвЂ™d pause in thrall of their delirious trill.</se>
+    <se lang="ru" variant_id="1">Свет в окнах: </se>
+  </para>
+  <para id="129">
+    <se lang="uk" variant_id="0">ThatвЂ™s Dr.</se>
+    <se lang="ru" variant_id="1">доктор Саттон!</se>
+  </para>
+  <para id="130">
+    <se lang="uk" variant_id="0">SuttonвЂ™s light.</se>
+    <se lang="ru" variant_id="1">В небе свет:</se>
+  </para>
+  <para id="131">
+    <se lang="uk" variant_id="0">ThatвЂ™s the Great Bear.</se>
+    <se lang="ru" variant_id="1">Медведица Большая!</se>
+  </para>
+  <para id="132">
+    <se lang="uk" variant_id="0">120 A thousand years ago five minutes were</se>
+    <se lang="ru" variant_id="1">Сорока Равны когда-то унциям песка</se>
+  </para>
+  <para id="133">
+    <se lang="uk" variant_id="0">Equal to forty ounces of fine sand.</se>
+    <se lang="ru" variant_id="1">Бывали пять минут.</se>
+  </para>
+  <para id="134">
+    <se lang="uk" variant_id="0">Outstare the stars.</se>
+    <se lang="ru" variant_id="1">Но светит мгла:</se>
+  </para>
+  <para id="135">
+    <se lang="uk" variant_id="0">Infinite foretime and</se>
+    <se lang="ru" variant_id="1">Два до- и послевременья крыла</se>
+  </para>
+  <para id="136">
+    <se lang="uk" variant_id="0">Infinite aftertime: above your head</se>
+    <se lang="ru" variant_id="1">Огромные у нас над головой</se>
+  </para>
+  <para id="137">
+    <se lang="uk" variant_id="0">They close like giant wings, and you are dead.</se>
+    <se lang="ru" variant_id="1">Смыкаются — и путь окончен твой.</se>
+  </para>
+  <para id="138">
+    <se lang="uk" variant_id="0">The regular vulgarian, I daresay,</se>
+    <se lang="ru" variant_id="1">Простак удачлив: он на Млечный Путь,</se>
+  </para>
+  <para id="139">
+    <se lang="uk" variant_id="0">Is happier: he sees the Milky Way</se>
+    <se lang="ru" variant_id="1">Лишь изливая влагу, рад взглянуть.</se>
+  </para>
+  <para id="140">
+    <se lang="uk" variant_id="0">Only when making water. Then as now</se>
+    <se lang="ru" variant_id="1">Но лишь на риск — по пням и зубьям скал —</se>
+  </para>
+  <para id="141">
+    <se lang="uk" variant_id="0">I walked at my own risk: whipped by the bough,</se>
+    <se lang="ru" variant_id="1">Тогда, как и сегодня, я шагал;</se>
+  </para>
+  <para id="142">
+    <se lang="uk" variant_id="0">Tripped by the stump.</se>
+    <se lang="ru" variant_id="1">Толстяк, астматик — не скакал мячом,</se>
+  </para>
+  <para id="143">
+    <se lang="uk" variant_id="0">Asthmatic, lame and fat,</se>
+    <se lang="ru" variant_id="1">Не плавал пробкой: не был ловкачом.</se>
+  </para>
+  <para id="144">
+    <se lang="uk" variant_id="0">130 I never bounced a ball or swung a bat.</se>
+    <se lang="ru" variant_id="1">Я тенью сойки был, нашедшей смерть,</se>
+  </para>
+  <para id="145">
+    <se lang="uk" variant_id="0">I was the shadow of the waxwing slain</se>
+    <se lang="ru" variant_id="1">С размаху, с лету грянувшись о твердь</se>
+  </para>
+  <para id="146">
+    <se lang="uk" variant_id="0">By feigned remoteness in the windowpane.</se>
+    <se lang="ru" variant_id="1">С фальшивой перспективой. </se>
+  </para>
+  <para id="147">
+    <se lang="uk" variant_id="0">I had a brain, five senses (one unique),</se>
+    <se lang="ru" variant_id="1">У меня Был мозг, пять чувств, — </se>
+  </para>
+  <para id="148">
+    <se lang="uk" variant_id="0">But otherwise I was a cloutish freak.</se>
+    <se lang="ru" variant_id="1">но тряпкою ни дня Не перестал я быть. </se>
+  </para>
+  <para id="149">
+    <se lang="uk" variant_id="0">In sleeping dreams I played with other chaps</se>
+    <se lang="ru" variant_id="1">Играл во сне С детьми, а утром вспоминалось мне,</se>
+  </para>
+  <para id="150">
+    <se lang="uk" variant_id="0">But really envied nothing вЂ” save perhaps</se>
+    <se lang="ru" variant_id="1">Как мокрый был изрыт наискосок</se>
+  </para>
+  <para id="151">
+    <se lang="uk" variant_id="0">The miracle of a lemniscate left</se>
+    <se lang="ru" variant_id="1">Синусоидовалами песок</se>
+  </para>
+  <para id="152">
+    <se lang="uk" variant_id="0">Upon wet sand by nonchalantly deft</se>
+    <se lang="ru" variant_id="1">Следов велосипедных.</se>
+  </para>
+  <para id="153">
+    <se lang="uk" variant_id="0">Bicycle tires.</se>
+    <se lang="ru" variant_id="1">Как давно</se>
+  </para>
+  <para id="154">
+    <se lang="uk" variant_id="0">A thread of subtle pain,</se>
+    <se lang="ru" variant_id="1">Смерть дернула за струнку боли! — но</se>
+  </para>
+  <para id="155">
+    <se lang="uk" variant_id="0">140 Tugged at by playful death, released again,</se>
+    <se lang="ru" variant_id="1">Вибрирует она еще сейчас.</se>
+  </para>
+  <para id="156">
+    <se lang="uk" variant_id="0">But always present, ran through me.</se>
+    <se lang="ru" variant_id="1">Одиннадцать мне было.</se>
+  </para>
+  <para id="157">
+    <se lang="uk" variant_id="0">One day,</se>
+    <se lang="ru" variant_id="1">Как-то раз</se>
+  </para>
+  <para id="158">
+    <se lang="uk" variant_id="0">When IвЂ™d just turned eleven, as I lay</se>
+    <se lang="ru" variant_id="1">Я на полу лежал; </se>
+  </para>
+  <para id="159">
+    <se lang="uk" variant_id="0">Prone on the floor and watched a clockwork toy вЂ”</se>
+    <se lang="ru" variant_id="1">передо мной</se>
+  </para>
+  <para id="160">
+    <se lang="uk" variant_id="0">A tin wheelbarrow pushed by a tin boy вЂ”</se>
+    <se lang="ru" variant_id="1">Бежал к кровати грузчик заводной,</se>
+  </para>
+  <para id="161">
+    <se lang="uk" variant_id="0">Bypass chair legs and stray beneath the bed,</se>
+    <se lang="ru" variant_id="1">За рукоятки тачку ухватив;</se>
+  </para>
+  <para id="162">
+    <se lang="uk" variant_id="0">There was a sudden sunburst in my head.</se>
+    <se lang="ru" variant_id="1">И вдруг в мозгу — как будто яркий взрыв</se>
+  </para>
+  <para id="163">
+    <se lang="uk" variant_id="0">And then black night.</se>
+    <se lang="ru" variant_id="1">И — ночь, </se>
+  </para>
+  <para id="164">
+    <se lang="uk" variant_id="0">That blackness was sublime.</se>
+    <se lang="ru" variant_id="1">темнее сверхтяжелых тел.</se>
+  </para>
+  <para id="165">
+    <se lang="uk" variant_id="0">I felt distributed through space and time:</se>
+    <se lang="ru" variant_id="1">Сквозь время и пространство я взлетел:</se>
+  </para>
+  <para id="166">
+    <se lang="uk" variant_id="0">One foot upon a mountaintop, one hand</se>
+    <se lang="ru" variant_id="1">Нога — на горном леднике; рука</se>
+  </para>
+  <para id="167">
+    <se lang="uk" variant_id="0">150 Under the pebbles of a panting strand,</se>
+    <se lang="ru" variant_id="1">Сжимает горсть прибрежного песка;</se>
+  </para>
+  <para id="168">
+    <se lang="uk" variant_id="0">One ear in Italy, one eye in Spain,</se>
+    <se lang="ru" variant_id="1">В Мадриде — глаз, а в Риме — ухо; воск</se>
+  </para>
+  <para id="169">
+    <se lang="uk" variant_id="0">In caves, my blood, and in the stars, my brain.</se>
+    <se lang="ru" variant_id="1">Пещерный — кровь, а звезд мерцанье — мозг;</se>
+  </para>
+  <para id="170">
+    <se lang="uk" variant_id="0">There were dull throbs in my Triassic; green</se>
+    <se lang="ru" variant_id="1">Пульс бился о триас; троичный нерв —</se>
+  </para>
+  <para id="171">
+    <se lang="uk" variant_id="0">Optical spots in Upper Pleistocene,</se>
+    <se lang="ru" variant_id="1">О верхний плейстоцен; преодолев</se>
+  </para>
+  <para id="172">
+    <se lang="uk" variant_id="0">An icy shiver down my Age of Stone,</se>
+    <se lang="ru" variant_id="1">Дрожь лихорадки в каменных веках,</se>
+  </para>
+  <para id="173">
+    <se lang="uk" variant_id="0">And all tomorrows in my funnybone.</se>
+    <se lang="ru" variant_id="1">В плече застряли «завтра» — в мыщелках.</se>
+  </para>
+  <para id="174">
+    <se lang="uk" variant_id="0">During one winter every afternoon</se>
+    <se lang="ru" variant_id="1">И каждый день в течение зимы</se>
+  </para>
+  <para id="175">
+    <se lang="uk" variant_id="0">IвЂ™d sink into that momentary swoon.</se>
+    <se lang="ru" variant_id="1">Я падал вновь в объятья этой тьмы.</se>
+  </para>
+  <para id="176">
+    <se lang="uk" variant_id="0">And then it ceased.</se>
+    <se lang="ru" variant_id="1">И вдруг — прошло.</se>
+  </para>
+  <para id="177">
+    <se lang="uk" variant_id="0">Its memory grew dim.</se>
+    <se lang="ru" variant_id="1">Я выполз, наконец.</se>
+  </para>
+  <para id="178">
+    <se lang="uk" variant_id="0">160 My health improved.</se>
+    <se lang="ru" variant_id="1">Окреп. </se>
+  </para>
+  <para id="179">
+    <se lang="uk" variant_id="0">I even learned to swim.</se>
+    <se lang="ru" variant_id="1">И плавать стал.</se>
+  </para>
+  <para id="180">
+    <se lang="uk" variant_id="0">But like some little lad forced by a wench</se>
+    <se lang="ru" variant_id="1">Но, как юнец, Что утоляет девки страсть тайком</se>
+  </para>
+  <para id="181">
+    <se lang="uk" variant_id="0">With his pure tongue her abject thirst to quench,</se>
+    <se lang="ru" variant_id="1">Своим невинным жалким языком, —</se>
+  </para>
+  <para id="182">
+    <se lang="uk" variant_id="0">I was corrupted, terrified, allured,</se>
+    <se lang="ru" variant_id="1">Я был смущен, испорчен. </se>
+  </para>
+  <para id="183">
+    <se lang="uk" variant_id="0">And though old doctor Colt pronounced me cured</se>
+    <se lang="ru" variant_id="1">И хотя Наш доктор Колт нам объявил шутя,</se>
+  </para>
+  <para id="184">
+    <se lang="uk" variant_id="0">Of what, he said, were mainly growing pains,</se>
+    <se lang="ru" variant_id="1">Что бес болезни насмерть им убит —</se>
+  </para>
+  <para id="185">
+    <se lang="uk" variant_id="0">The wonder lingers and the shame remains.</se>
+    <se lang="ru" variant_id="1">Дрожь не остыла и остался стыд.</se>
+  </para>
+</body>
+</html>
