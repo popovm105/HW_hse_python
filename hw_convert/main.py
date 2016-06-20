@@ -3,23 +3,6 @@ import csv
 import sys
 import os
 
-def get_data_from_token1(token):
-    data = {}
-    if isinstance(token, bs4.element.Tag):
-        data['type'] = 'word'
-        data['word'] = token.text.strip()
-        data['ana']=[]
-        for ana in token.findAll('ana'):
-            data['ana'].append(ana.attrs)
-
-    elif len(token.strip())>0:
-        data['type'] = 'punct'
-        data['punct'] = token.strip()
-    else:
-        return False
-    return data
-
-
 
 
 def get_data_from_token(token):
