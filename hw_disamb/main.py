@@ -3,18 +3,10 @@ from pymystem3 import Mystem
 m = Mystem()
 
 
-
-def get_statistics(a):
-        statistics = []
-        for index,item in enumerate(a):
-            if 'analysis' in item and 'gr' in item['analysis'][0]:# and item['analysis'][0] == 'PR=':
-                statistics.append(item)
-        return statistics
-
-
-
-
 class Parsed_text(object):
+    """
+    конструктору подается текст, в классе хранится текст и обработанный Mystem текст
+    """
     def __init__(self, text):
         self.text = text
         self.parsed_text = m.analyze(text)
@@ -22,6 +14,10 @@ class Parsed_text(object):
         
         
 class PR_stat(Parsed_text):
+    '''
+    конструктору подается текст, в классе хранится текст и обработанный Mystem текст и статистика вида (предлог, падеж): количество
+    для конструкцию предлог + существительное
+    '''
     def __init__(self,text):
         super().__init__(text)
         self.statistics = self.make_statistics()
@@ -48,13 +44,17 @@ class PR_stat(Parsed_text):
 
     
 class Disamb_text(Parsed_text):
+    '''
+    конструктору подается текст и статистика полученная на другом или том же тексте,
+    в классе хранится текст и обработанный Mystem текст с заменой падежей на наиболее частотные в конструкциях предлог+существительное
+    '''
     def __init__(self,text, statistics):
         super().__init__(text)
         self.parsed_text = self.disamb_text(self.parsed_text, statistics)
     
     def disamb_text(self, text, statistics):
         pr_case = self.get_pr_case(statistics)
-        print(pr_case)
+        #print(pr_case)
         for index,item in enumerate(self.parsed_text[:-3]):
             if 'analysis' in item and len(item['analysis'])>0 and 'gr' in item['analysis'][0] and item['analysis'][0]['gr'] == 'PR=':
                 pr = item['text'].lower()
@@ -66,7 +66,7 @@ class Disamb_text(Parsed_text):
                     
     def get_pr_case(self,statistics):
         PRs = set([item[0] for item in statistics.keys()])
-        print(PRs)
+        #print(PRs)
         sort_stat = sorted(statistics.items(), key = lambda a: a[1])
         pr_case = {}
         for pr in PRs:
@@ -100,5 +100,5 @@ if __name__ == "__main__":
     b = Disamb_text(text2, a.statistics)
 
 
-    b.parsed_text
+    print(b.parsed_text)
 
