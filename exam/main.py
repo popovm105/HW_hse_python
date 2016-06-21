@@ -14,14 +14,14 @@ def in_date(min_date, max_date, text_date):
             text_min, text_max = [int(item[0:4]) for item in text_date.split('-')[:2]]
         else:
             text_min, text_max = int(text_date[0:4]),int(text_date[0:4])
-        if text_min > max_date or text_max < max_date:
+        if text_min > max_date or text_max < min_date:
             return False
         else:
             return True
     else:   
         
         text_min, text_max = int(text_date[-4:]),int(text_date[-4:])
-        if text_min > max_date or text_max < max_date:
+        if text_min > max_date or text_max < min_date:
             return False
         else:
             return True
@@ -186,7 +186,7 @@ for sphere in spheres.keys():
     #print(vol)
     res_data += res_set
 
-
+print(cur_vol)
 with open('result.tsv', 'w') as tsvFile:
         fieldNames = res_data[0].keys()
         writer = csv.DictWriter(tsvFile, fieldnames=fieldNames, delimiter='\t')
